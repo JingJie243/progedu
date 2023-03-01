@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
     
+    <response>
+        <speak>Hello, I am Prog Edu, what knowleges about programming language can I provide to you?</speak>
+    </response>
+    
   <category>
     <pattern>*</pattern>
     <template>Sorry, I dont know knowledges about that.</template>
