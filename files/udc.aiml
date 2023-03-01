@@ -65,9 +65,19 @@
             </button>
         </template>
     </category>
-
+    
     <category>
         <pattern>C++</pattern>
+        <template><srai>C plus plus</srai></template>
+    </category>
+    
+    <category>
+        <pattern>cpp</pattern>
+        <template><srai>C plus plus</srai></template>
+    </category>
+    
+    <category>
+        <pattern>C plus plus</pattern>
         <template>
             C++ is a general-purpose, object-oriented programming language. It was created by Bjarne Stroustrup at Bell Labs circa 1980.
             Enter "More" for more details.
@@ -88,6 +98,11 @@
 
     <category>
         <pattern>C#</pattern>
+        <template><srai>C sharp</srai></template>
+    </category>
+
+    <category>
+        <pattern>C sharp</pattern>
         <template>
             C#, pronounced "C-sharp," is an object-oriented programming language from Microsoft that enables developers to build applications that run on the .NET platform.
             Enter "More" for more details.
