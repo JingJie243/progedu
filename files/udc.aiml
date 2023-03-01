@@ -10,7 +10,18 @@
         <template>
             Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.
             Enter "More" for more details.
-            <think><set language = "topic">Python</set></think>
+            <button>
+                <text>More Details</text>
+                <postback>PYTHON DETAILS</postback>
+            </button>
+            <button>
+                <text>History</text>
+                <postback>PYTHON HISTORY</postback>
+            </button>
+            <button>
+                <text>Job opportunities of python</text>
+                <postback>PYTHON JOB OPPORTUNITIES</postback>
+            </button>
         </template>
     </category>
 
@@ -19,7 +30,18 @@
             <template>
             Java is a programming language and computing platform first released by Sun Microsystems in 1995.
             Enter "More" for more details.
-            <think><set language = "topic">Java</set></think>
+            <button>
+                <text>More Details</text>
+                <postback>JAVA DETAILS</postback>
+            </button>
+            <button>
+                <text>History</text>
+                <postback>HISTORY HISTORY</postback>
+            </button>
+            <button>
+                <text>Job opportunities of python</text>
+                <postback>JAVA JOB OPPORTUNITIES</postback>
+            </button>
             </template>
     </category>
 
@@ -28,6 +50,18 @@
         <template>
             C is a general-purpose programming language that is extremely popular, simple, and flexible to use.
             Enter "More" for more details.
+            <button>
+                <text>More Details</text>
+                <postback>C DETAILS</postback>
+            </button>
+            <button>
+                <text>History</text>
+                <postback>C HISTORY</postback>
+            </button>
+            <button>
+                <text>Job opportunities of python</text>
+                <postback>C JOB OPPORTUNITIES</postback>
+            </button>
         </template>
     </category>
 
@@ -36,6 +70,18 @@
         <template>
             C++ is a general-purpose, object-oriented programming language. It was created by Bjarne Stroustrup at Bell Labs circa 1980.
             Enter "More" for more details.
+            <button>
+                <text>More Details</text>
+                <postback>C++ DETAILS</postback>
+            </button>
+            <button>
+                <text>History</text>
+                <postback>C++ HISTORY</postback>
+            </button>
+            <button>
+                <text>Job opportunities of python</text>
+                <postback>C++ JOB OPPORTUNITIES</postback>
+            </button>
         </template>
     </category>
 
@@ -44,6 +90,18 @@
         <template>
             C#, pronounced "C-sharp," is an object-oriented programming language from Microsoft that enables developers to build applications that run on the .NET platform.
             Enter "More" for more details.
+            <button>
+                <text>More Details</text>
+                <postback>C# DETAILS</postback>
+            </button>
+            <button>
+                <text>History</text>
+                <postback>C# HISTORY</postback>
+            </button>
+            <button>
+                <text>Job opportunities of python</text>
+                <postback>C# JOB OPPORTUNITIES</postback>
+            </button>
         </template>
     </category>
     
@@ -52,6 +110,18 @@
         <template>
             HTML stands for HyperText Markup Language. It is a standard markup language for web page creation.
             Enter "More" for more details.
+            <button>
+                <text>More Details</text>
+                <postback>HTML DETAILS</postback>
+            </button>
+            <button>
+                <text>History</text>
+                <postback>HTML HISTORY</postback>
+            </button>
+            <button>
+                <text>Job opportunities of python</text>
+                <postback>HTML JOB OPPORTUNITIES</postback>
+            </button>
         </template>
     </category>    
 
@@ -60,6 +130,18 @@
         <template>
             Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.
             Enter "More" for more details.
+            <button>
+                <text>More Details</text>
+                <postback>CSS DETAILS</postback>
+            </button>
+            <button>
+                <text>History</text>
+                <postback>CSS HISTORY</postback>
+            </button>
+            <button>
+                <text>Job opportunities of python</text>
+                <postback>CSS JOB OPPORTUNITIES</postback>
+            </button>
         </template>
     </category>  
 
@@ -68,6 +150,18 @@
         <template>
             PHP (Hypertext Preprocessor) is a popular server-side scripting language used to create dynamic web pages and web applications.
             Enter "More" for more details.
+            <button>
+                <text>More Details</text>
+                <postback>PHP DETAILS</postback>
+            </button>
+            <button>
+                <text>History</text>
+                <postback>PHP HISTORY</postback>
+            </button>
+            <button>
+                <text>Job opportunities of python</text>
+                <postback>PHP JOB OPPORTUNITIES</postback>
+            </button>
         </template>
     </category>
 
@@ -76,8 +170,235 @@
         <template>
             Ruby is a dynamic, interpreted, high-level programming language that is designed for general-purpose programming.
             Enter "More" for more details.
+            <button>
+                <text>More Details</text>
+                <postback>RUBY DETAILS</postback>
+            </button>
+            <button>
+                <text>History</text>
+                <postback>RUBY HISTORY</postback>
+            </button>
+            <button>
+                <text>Job opportunities of python</text>
+                <postback>RUBY JOB OPPORTUNITIES</postback>
+            </button>
         </template>
     </category>
+    
+    <category>
+        <pattern>PYTHON DETAILS</pattern>
+        <template>
+            Python is a high-level, interpreted programming language that was first released in 1991 by Guido van Rossum. It is designed to be easy to read, write, and maintain, making it a popular choice for beginners and experienced developers alike. Python is widely used in fields such as web development, data analysis, artificial intelligence, and scientific computing.
+            <ol>
+                <li>Interpreted language: Python code is executed line-by-line by an interpreter rather than compiled into machine code before execution.</li>
+                <li>Object-oriented: Python supports object-oriented programming, which allows for the creation of reusable code and data structures.</li>
+                <li>Dynamic typing: Python is dynamically typed, meaning that variable types are determined at runtime rather than at compile time.</li>
+                <li>Extensive standard library: Python has a large standard library that includes modules for common tasks such as file I/O, networking, and web development.</li>
+                <li>Cross-platform: Python code can be run on multiple operating systems, including Windows, macOS, and Linux.</li>
+                <li>Easy to learn: Python is considered one of the easiest programming languages to learn due to its simple syntax and readability.</li>
+                <li>Versatile: Python can be used for a wide range of applications, from web development and data analysis to machine learning and artificial intelligence.</li>
+            </ol>
+            To run Python code, you need a Python interpreter installed on your computer. Python can be run in interactive mode, where you enter commands one at a time, or in script mode, where you write code in a text editor and run the entire program at once. Popular text editors for Python include Visual Studio Code, PyCharm, and Sublime Text.    
+        </template>
+    </category>
+
+    <category>
+        <pattern>JAVA DETAILS</pattern>
+        <template>
+            Java is a general-purpose, object-oriented programming language that was developed by James Gosling and his team at Sun Microsystems (which was later acquired by Oracle Corporation) in the mid-1990s. Java is designed to be platform-independent, meaning that Java programs can run on any platform that has a Java Virtual Machine (JVM) installed.
+            <ol>
+                <li>Object-oriented programming: Java is a pure object-oriented programming language, which means that everything in Java is an object, including data types such as integers and booleans.</li>
+                <li>Garbage collection: Java has an automatic garbage collector that automatically frees up memory that is no longer being used by the program.</li>
+                <li>Platform independence: Java code is compiled into bytecode, which can be run on any platform that has a JVM installed.</li>
+                <li>Strong type checking: Java is a strongly-typed language, meaning that variables must be declared with a specific data type and cannot be changed to a different data type later in the program.</li>
+                <li>Security: Java has built-in security features, such as sandboxing, that help prevent malicious code from causing harm.</li>
+                <li>Multithreading: Java supports multithreading, which allows for multiple threads of execution to run simultaneously within a program.</li>
+            </ol>
+            Java is commonly used for building desktop applications, web applications, and Android mobile applications. It is also used extensively in enterprise applications and for building server-side applications. The language has a large and active community of developers, and there are many libraries and frameworks available to help simplify the development process.
+        </template>
+    </category>
+
+    <category>
+        <pattern>C DETAILS</pattern>
+        <template>
+            C is a general-purpose, procedural programming language that was originally developed by Dennis Ritchie at Bell Labs in the early 1970s. C is known for its efficiency, portability, and low-level programming capabilities, making it a popular choice for developing operating systems, embedded systems, and other performance-critical applications.
+            <ol>
+                <li>Procedural programming: C is a procedural programming language, meaning that programs are structured around procedures or functions that manipulate data.</li>
+                <li>Low-level programming: C provides low-level access to memory and system resources, making it a powerful tool for systems programming.</li>
+                <li>Portability: C is highly portable, meaning that C programs can be compiled and run on a wide variety of platforms, from microcontrollers to supercomputers.</li>
+                <li>Standard library: C comes with a rich standard library that provides functions for common tasks like string manipulation, input/output, and math.</li>
+                <li>Pointers: C provides support for pointers, which allow programs to manipulate memory directly and efficiently.</li>
+                <li>Preprocessor: C includes a preprocessor that allows for macro definitions, conditional compilation, and other advanced features.</li>
+            </ol>
+            C has had a significant impact on the field of computer science, and many modern programming languages (such as Java and C++) are based on or influenced by C. Despite being over 40 years old, C remains a popular choice for developing systems software and other performance-critical applications.
+        </template>
+    </category>
+
+    <category>
+        <pattern>C++ DETAILS</pattern>
+        <template>
+            C++ is a general-purpose, object-oriented programming language that was developed by Bjarne Stroustrup at Bell Labs in the early 1980s. C++ is an extension of the C programming language, with additional features such as object-oriented programming, templates, and exception handling.
+          <ol>
+              <li>Object-oriented programming: C++ supports object-oriented programming, which allows for code to be organized around objects that contain both data and behavior.</li>
+              <li>Templates: C++ provides support for templates, which allow for generic programming and the creation of reusable code.</li>
+              <li>Standard library: C++ includes a rich standard library that provides functions for common tasks such as input/output, string manipulation, and data structures.</li>
+              <li>Performance: C++ is a high-performance language, with low-level access to memory and system resources that allow for efficient use of resources.</li>
+              <li>Compatibility with C: C++ is designed to be compatible with the C programming language, allowing for C code to be easily integrated into C++ programs.</li>
+              <li>Exception handling: C++ provides support for exception handling, which allows programs to gracefully handle errors and exceptions.</li>
+          </ol>
+        </template>
+    </category>
+
+    <category>
+        <pattern>C# DETAILS</pattern>
+        <template>
+            C# (pronounced "C sharp") is a modern, object-oriented programming language developed by Microsoft in the early 2000s. C# is designed to be easy to learn and use, and it has become a popular choice for developing Windows desktop applications, web applications, and games.
+            <ol>
+                <li>Object-oriented programming: C# supports object-oriented programming, which allows for code to be organized around objects that contain both data and behavior.</li>
+                <li>Garbage collection: C# includes automatic garbage collection, which frees up memory that is no longer being used by the program.</li>
+                <li>Cross-platform: C# can be used to develop applications for Windows, Linux, and macOS.</li>
+                <li>Strongly-typed: C# is a strongly-typed language, which means that all variables must be declared with their data type before they can be used.</li>
+                <li>Support for functional programming: C# also has support for functional programming concepts like lambda expressions, which can make code more concise and expressive.</li>
+                <li>Popular frameworks: C# is commonly used with popular frameworks like ASP.NET for web development, and Unity for game development.</li>
+            </ol>
+            Overall, C# is a powerful and flexible programming language that is widely used in a variety of industries and applications.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HTML DETAILS</pattern>
+        <template>
+            HTML (Hypertext Markup Language) is a markup language used to create web pages and other types of documents intended for display in a web browser. Here are some key features and details of HTML:
+            <ol>
+                <li>Structure: HTML uses a hierarchical structure of nested elements to define the content and structure of a web page. The basic building block of HTML is the "tag", which is used to mark up content and provide structure to the page.</li>
+                <li>Elements: HTML elements are the building blocks of HTML pages. They are enclosed in angled brackets and consist of an opening tag, content, and a closing tag. Some examples of HTML elements are headings, paragraphs, images, links, and lists.</li>
+                <li>Attributes: HTML elements can have attributes, which provide additional information about the element. For example, the "img" element can have attributes like "src" (the URL of the image) and "alt" (a description of the image for accessibility purposes).</li>
+                <li>Semantic markup: HTML has a variety of elements that are designed to provide semantic meaning to the content on the page. For example, the "header" element is used to define the header section of a page, while the "article" element is used to define an article or other self-contained piece of content.</li>
+                <li>Cascading Style Sheets (CSS): CSS is a separate language used to describe the presentation and style of an HTML document. CSS can be used to define colors, fonts, layout, and other visual aspects of a web page.</li>
+            </ol>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CSS DETAILS</pattern>
+        <template>
+            CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation and layout of web pages written in HTML and XHTML.
+            <ol>
+                <li>Separation of presentation and content: CSS allows the separation of the presentation of a document from its content. This makes it easier to maintain and update the visual appearance of a website, as changes can be made to the CSS file without altering the underlying HTML markup.</li>
+                <li>Selectors: CSS selectors are used to target specific HTML elements and apply styles to them. There are a variety of selectors available, including tag selectors, class selectors, ID selectors, and attribute selectors.</li>
+                <li>Style properties: CSS allows developers to specify a wide range of style properties for HTML elements, such as font size, color, margin, padding, and border.</li>
+                <li>Cascading and inheritance: CSS is designed to be cascading, which means that styles applied to an element can be inherited by its children. This makes it possible to create consistent styling across an entire website. In addition, when multiple styles are applied to an element, CSS uses a set of rules to determine which styles take precedence.</li>
+                <li>Responsive design: CSS allows developers to create responsive designs that adapt to different screen sizes and devices. This can be achieved through techniques like media queries, which allow styles to be applied based on the size of the viewport.</li>
+            </ol>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PHP DETAILS</pattern>
+        <template>
+            PHP (Hypertext Preprocessor) is a server-side scripting language used for web development.
+           <ol>
+               <li>Server-side scripting: PHP is a server-side scripting language, which means that it runs on a web server and generates HTML output that is sent to the client's web browser.</li>
+               <li>Open-source: PHP is an open-source language, which means that it is free to use and can be modified by anyone. There is a large community of developers contributing to the development and improvement of the language.</li>
+               <li>Cross-platform: PHP is cross-platform and can run on various operating systems, including Windows, Linux, and macOS.</li>
+               <li>Object-oriented programming: PHP supports object-oriented programming (OOP), which allows developers to write reusable and modular code. OOP concepts like classes, objects, and inheritance can be used in PHP.</li>
+               <li>Security: PHP has a range of security features built-in, including data sanitization functions and tools for preventing common security vulnerabilities like SQL injection and cross-site scripting (XSS).</li>
+           </ol>
+        </template>
+        Overall, PHP is a powerful and flexible language that is widely used for web development. Its integration with databases, object-oriented programming, and wide range of frameworks make it a popular choice for building dynamic and complex web applications.
+    </category>
+
+    <category>
+        <pattern>RUBY DETAILS</pattern>
+        <template>
+            Ruby is an open-source, high-level programming language that is designed to prioritize programmer happiness and productivity.
+            <ol>
+                <li>Object-oriented programming: Ruby is a fully object-oriented programming language, which means that everything in Ruby is an object. This allows for a more natural and intuitive programming experience, as well as easier code reuse and modularity.</li>
+                <li>Dynamic and reflective: Ruby is a dynamic language, which means that code can be changed at runtime. It is also reflective, which means that it can inspect and modify its own structure and behavior.</li>
+                <li>Easy to read and write: Ruby's syntax is designed to be easy to read and write, which makes it popular among beginners and experienced developers alike. It also supports a variety of programming paradigms, including procedural, functional, and imperative programming.</li>
+                <li>Metaprogramming: Ruby is well-known for its metaprogramming capabilities, which allow developers to create code that writes code. This can be used to write more concise and elegant code, as well as to create domain-specific languages (DSLs) tailored to a specific problem domain.</li>
+                <li>Web development: Ruby is widely used for web development, particularly with the Ruby on Rails framework. Rails provides a powerful set of tools and conventions for building web applications, making it a popular choice for startups and established companies alike.</li>
+            </ol>
+            Overall, Ruby is a versatile and powerful programming language that prioritizes developer happiness and productivity. Its object-oriented nature, dynamic and reflective capabilities, and metaprogramming features make it a popular choice for a wide range of applications, from web development to scientific computing.
+        </template>
+    </category>
+
+    <category>
+        <pattern>PYTHON HISTORY</pattern>
+        <template>
+            <li>Development started in December 1989: Python was created by Guido van Rossum, a Dutch programmer, in December 1989 while he was working at the National Research Institute for Mathematics and Computer Science in the Netherlands.</li>
+            <li>First released in February 1991: The first version of Python, version 0.9.0, was released in February 1991. It was a simple scripting language that was easy to learn and use.</li>
+        </template>
+    </category>
+
+    <category>
+        <pattern>JAVA HISTORY</pattern>
+        <template>
+            <li>In 1991, a group of Sun Microsystems engineers led by James Gosling began work on a project called "Green" that was intended to develop a new programming language for use in consumer electronics devices.</li>
+            <li>The Green team initially developed a language called Oak, but in 1995, Sun Microsystems officially released the language under the name Java.</li>
+            <li>Java was designed to be platform-independent, meaning that it could be run on any system that had a Java Virtual Machine (JVM) installed. This made it ideal for use on the internet, as it could be used to create applets that could be run in a web browser.</li>
+            <li>Java quickly became popular for internet programming, and in 1996, Sun Microsystems released the first version of the Java Development Kit (JDK).</li>
+       </template>
+    </category>
+
+    <category>
+        <pattern>C HISTORY</pattern>
+        <template>
+            <li>In the late 1960s, Bell Labs was developing an operating system called Multics. Ken Thompson and Dennis Ritchie were two of the developers on the project, and they began to feel that the existing programming languages were not well-suited for systems programming.</li>
+            <li>In 1972, Dennis Ritchie began work on a new programming language called C. C was designed to be a low-level language that was easy to write, compile, and debug, and could be used for systems programming.</li>
+            <li>C quickly became popular, and in 1978, Brian Kernighan and Dennis Ritchie published "The C Programming Language", a book that served as a reference manual for the language.</li>
+            <li>In the 1980s, C became widely used for system programming, especially in the Unix operating system. The language was also used for the development of early video games.</li>
+        </template>
+    </category>
+
+    <category>
+        <pattern>C++ HISTORY</pattern>
+        <template>
+            <li>In 1979, Bjarne Stroustrup, a computer scientist at Bell Labs, began working on a language that would extend the C programming language with support for object-oriented programming.</li>
+            <li>Stroustrup called the language "C with Classes", and it was designed to provide support for data abstraction, inheritance, and polymorphism.</li>
+            <li>C++ quickly became popular, especially in the development of software systems that required high performance, such as operating systems and database management systems.</li>
+            <li>Today, C++ is used in a wide range of applications, from operating systems and high-performance servers to video games and financial systems. It is also used as a foundation for other programming languages, such as Rust and Swift.</li>
+        </template>
+    </category>
+
+    <category>
+        <pattern>C# HISTORY</pattern>
+        <template>
+            <li>In the late 1990s, Microsoft recognized a need for a new programming language that would be well-suited for developing Windows applications and web services.</li>
+            <li>In 1999, a team of developers at Microsoft, led by Anders Hejlsberg, began work on a new language called "Cool" (C-like Object Oriented Language). Cool was designed to be a simple, modern, and type-safe language that could be used to build Windows applications.</li>
+            <li>Cool was eventually renamed to C#, and the first version of the language was released in 2002 as part of the Microsoft .NET Framework.</li>
+            <li>C# was designed to be similar to other popular programming languages, such as C++ and Java, but with additional features, such as support for garbage collection, properties, and delegates.</li>
+            <li>Today, C# is used to build a wide range of applications, from desktop software to mobile apps and web services. It is also a popular language for game development, thanks to the Unity game engine, which uses C# as its primary scripting language.</li>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HTML HISTORY</pattern>
+        <template>
+            
+        </template>
+    </category>
+
+    <category>
+        <pattern>CSS HISTORY</pattern>
+        <template>
+            
+        </template>
+    </category>
+
+    <category>
+        <pattern>PHP HISTORY</pattern>
+        <template>
+            
+        </template>
+    </category>
+    
+    <category>
+        <pattern>RUBY HISTORY</pattern>
+        <template>
+            
+        </template>
+    </category>    
     
     <category>
         <pattern>WHAT IS *</pattern>
@@ -259,6 +580,20 @@
         <srai>LANGUAGES FOR BEGINNER</srai>
     </template>
     </category>
+
+    <category>
+    <pattern>WHICH LANGUAGES SHOULD I LEARN FIRST</pattern>
+    <template>
+        <srai>LANGUAGES FOR BEGINNER</srai>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHAT LANGUAGE I CAN LEARN</pattern>
+    <template>
+        <srai>LANGUAGES FOR BEGINNER</srai>
+    </template>
+    </category>
     
     <category>
     <pattern>LANGUAGES FOR BEGINNER</pattern>  
@@ -284,8 +619,10 @@
     <pattern>PYTHON JOB OPPORTUNITIES</pattern>    
     <template>
         Python is suitable for Web development, Data science and Cybersecurity.
-        <think><set job = "topic">Python</set></think>
-        Enter "More" for more job opportunity details.
+        <button>
+            <text>More details</text>
+            <postback>MORE OPPORTUNITY DETAILS ABOUT PYTHON</postback>
+        </button>
     </template>
     </category>    
 
@@ -293,8 +630,10 @@
     <pattern>JAVA JOB OPPORTUNITIES</pattern>    
     <template>
         Java is suitable for Web Development,Cyber Security and Cloud Computing.
-        <think><set job = "topic">Java</set></think>
-        Enter "More" for more job opportunity details.
+        <button>
+            <text>More Details</text>
+            <postback>MORE JOB OPPORTUNITY DETAILS ABOUT JAVA</postback>
+        </button>
     </template>
     </category> 
 
@@ -302,8 +641,10 @@
     <pattern>C JOB OPPORTUNITIES</pattern>    
     <template>
         C is suitable for System Programming, Game development.
-        <think><set job = "topic">C</set></think>
-        Enter "More" for more job opportunity details.
+        <button>
+            <text>More Details</text>
+            <postback>MORE JOB OPPORTUNITY DETAILS ABOUT PHP</postback>
+        </button>
     </template>
     </category>
 
@@ -311,8 +652,10 @@
     <pattern>C++ JOB OPPORTUNITIES</pattern>    
     <template>
         C++ is suitable for Game Development and Operating System Development.
-        <think><set job = "topic">C++</set></think>
-        Enter "More" for more job opportunity details.
+        <button>
+            <text>More Details</text>
+            <postback>MORE JOB OPPORTUNITY DETAILS ABOUT C++</postback>
+        </button>
     </template>
     </category>
 
@@ -320,17 +663,21 @@
     <pattern>C# JOB OPPORTUNITIES</pattern>    
     <template>
         C# is suitable for Web development and Game Development.
-        <think><set job = "topic">C#</set></think>
-        Enter "More" for more job opportunity details.
+        <button>
+            <text>More details</text>
+            <postback>MORE JOB OPPORTUNITY DETAILS ABOUT C#</postback>
+        </button>
     </template>
     </category>
 
     <category>
     <pattern>HTML JOB OPPORTUNITIES</pattern>    
     <template>
-        HTML is suitable for 
-        <think><set job = "topic">HTML</set></think>
-        Enter "More" for more job opportunity details.
+        HTML is suitable for Web Development.
+        <button>
+            <text>More Details</text>
+            <postback>MORE JOB OPPORTUNITY DETAILS ABOUT HTML</postback>
+        </button>
     </template>
     </category>
 
@@ -338,153 +685,141 @@
     <pattern>CSS JOB OPPORTUNITIES</pattern>    
     <template>
         CSS is suitable for 
-        <think><set job = "topic">CSS</set></think>
-        Enter "More" for more job opportunity details.
+        <button>
+            <text>More Details</text>
+            <postback>MORE JOB OPPORTUNITY DETAILS ABOUT CSS</postback>
+        </button>
     </template>
     </category>
 
     <category>
     <pattern>PHP JOB OPPORTUNITIES</pattern>    
     <template>
-        PHP is suitable for 
-        <think><set job = "topic">PHP</set></think>
-        Enter "More" for more job opportunity details.
+        PHP is suitable for Web Development.
+        <button>
+            <text>More details</text>
+            <postback>MORE JOB OPPORTUNITY DETAILS ABOUT PHP</postback>
+        </button>
     </template>
     </category>
-
+    
     <category>
     <pattern>RUBY JOB OPPORTUNITIES</pattern>    
     <template>
-        PHP is suitable for 
-        <think><set job = "topic">Ruby</set></think>
-        Enter "More" for more job opportunity details.
+        Ruby is suitable for Web Development.
+        <button>
+            <text>More Details</text>
+            <postback>MORE JOB OPPORTUNITY DETAILS ABOUT RUBY</postback>
+        </button>
     </template>
     </category>
 
-    <topic job = "Python">
     <category>
-    <pattern>MORE</pattern>
+    <pattern>MORE OPPORTUNITY DETAILS ABOUT PYTHON</pattern>
     <template>
     Python is a widely used programming language, and there are many job opportunities for Python developers across different industries:
     <ol>
         <li>Web Development: Python is a popular language for web development, and there are many job opportunities for Python developers in this field. Python web frameworks like Django and Flask are commonly used in web development projects.</li>
+        <li>Roles:Front-end and Back-end Developer</li>
         <li>Data Science: Python is widely used in data science and machine learning projects. Companies in industries like healthcare, finance, and technology are always on the lookout for Python developers with experience in data science and machine learning.</li>
+        <li>Roles:Data E</li>
         <li>Cybersecurity: Python is commonly used in cybersecurity, and there are many job opportunities for Python developers in this field. Python can be used to develop tools for vulnerability scanning, penetration testing, and network analysis.</li>
+        <li>Roles:Information Security Analysis, Security Engineer,Security Architect, Ethical Hacker</li>
     </ol>
     </template>
     </category>
-    </topic>
 
-    <topic job = "Java">
     <category>
-    <pattern>MORE</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT JAVA</pattern>
     <template>
     Java is a widely used programming language, and there are many job opportunities for Java developers across different industries:
     <ol>
         <li>Web Development: Java is also used in web development, and there are many job opportunities for Java developers in this field. Java frameworks like Spring MVC, Struts, and JSF are commonly used in web development projects.</li>
+        <li>Roles:Back-end developer</li>
         <li>Cyber Security: Java is a programming language that has been widely used in the development of software and applications related to cybersecurity. Java's popularity in cybersecurity is due to its platform independence, which means that the same code can run on different operating systems without modification.</li>
+        <li>Roles:Information Security Analysis, Security Engineer,Security Architect, Ethical Hacker</li>
         <li>Cloud Computing: Java is commonly used in cloud computing, and there are many job opportunities for Java developers in this field. Java can be used to develop cloud applications using platforms like Amazon Web Services (AWS) and Microsoft Azure.</li>
+        <li>Roles:Cloud Security Specialist, Cloud Developer, Cloud Engineer, Cloud Architect</li>
     </ol>
     </template>
     </category>
-    </topic>
 
-    <topic job = "C">
     <category>
-    <pattern>MORE</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT C</pattern>
     <template>
-    Java is a widely used programming language, and there are many job opportunities for Java developers across different industries:
+    C is a widely used programming language, and there are many job opportunities for Java developers across different industries:
     <ol>
         <li>System Programming: C is also used in system programming, and there are many job opportunities for C developers in this field. C is used to write operating systems, device drivers, and other system-level software.</li>
+        <li>Roles:System Developer</li>
         <li>Gaming: C is commonly used in game development, and there are many job opportunities for C developers in this field. C is used to write the low-level game engine code, game physics, and other performance-critical parts of the game.</li>
+        <li>Roles:Game programmer, Game designer for developing game or game engine and Level Designer</li>
     </ol>
     </template>
     </category>
-    </topic>
-    
-    <topic language = "C++">
+
     <category>
-    <pattern>MORE</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAIS ABOUT C++</pattern>
     <template>
         C++ is a widely used programming language, and there are many job opportunities for C++ developers across different industries. Here are some potential job opportunities for C++ developers:
     <ol>
         <li>Game Development: C++ is commonly used in game development, and there are many job opportunities for C++ developers in this field. C++ is used to write game engines, game physics, and other performance-critical parts of the game.</li>
+        <li>Roles:Game Programmer, Game Developer which using Unreal Engine, Unity Engine or Developing engine and Level Designer.</li>
         <li>Operating System Development: C++ is commonly used in operating system development, and there are many job opportunities for C++ developers in this field. C++ is used to write operating system kernels, device drivers, and other system-level software.</li>
+        <li>Roles:System Developer</li>
     </ol>
     </template>
     </category>
-    </topic> 
 
-    <topic language = "C#">
     <category>
-    <pattern>MORE</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAIS ABOUT C#</pattern>
     <template>
     <ol>
         <li>Game Development:C# is a popular programming language used for game development because of its performance and ease of use. It is commonly used with game engines such as Unity and Unreal Engine to develop high-quality games for different platforms including desktop, mobile, and consoles.</li>
+        <li>Roles:Game Programmer, Game Designer using Uinity.</li>    
         <li>Web Development:C# is a popular programming language used for web development due to its strong typing, scalability, and performance. C# is commonly used in conjunction with the .NET framework to develop web applications that run on Windows-based servers.</li>
+        <li>Roles:Front-end Developer</li>
     </ol>
     </template>
     </category>
-    </topic>
-    
-    <topic language = "HTML">
-    <category>
-    <pattern>MORE</pattern>
-    <template>
-    <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ol>
-    </template>
-    </category>
-    </topic> 
 
-    <topic language = "CSS">
     <category>
-    <pattern>MORE</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAIS ABOUT HTML</pattern>
     <template>
     <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Web Development:HTML is used to create the structure of a web page, including headings, paragraphs, lists, links, images, and more. It is also used to add semantic meaning to content, which helps search engines and other software understand the purpose of each element on the page.</li>
+        <li>Roles: Web Designer, Back-end Developer.</li>
     </ol>
     </template>
     </category>
-    </topic>
 
-    <topic language = "PHP">
     <category>
-    <pattern>MORE</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAIS ABOUT CSS</pattern>
     <template>
     <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Web Development:The job of a web developer using CSS involves creating visually appealing and user-friendly web pages using Cascading Style Sheets (CSS). CSS is a stylesheet language used to describe the presentation of a document written in HTML or XML. The primary responsibility of a web developer using CSS is to design and develop the user interface of web pages.</li>
+        <li>Roles:Back-end Developer</li>
     </ol>
     </template>
     </category>
-    </topic>  
+
+    <category>
+    <pattern>MORE JOB OPPORTUNITY DETAIS ABOUT PHP</pattern>
+    <template>
+    <ol>
+        <li>Web Development:Web development with PHP involves using the PHP programming language to create dynamic and interactive web pages. PHP is a popular server-side scripting language that is used to develop websites and web applications.</li>
+        <li>Roles: Back-end Developer, Full-Stack Developer</li>
+    </ol>
+    </template>
+    </category>
     
-    <topic language = "Ruby">
     <category>
-    <pattern>MORE</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAIS ABOUT RUBY</pattern>
     <template>
     <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Web Development:Ruby is a powerful programming language that is widely used in web development.Ruby is used to develop web applications using popular frameworks such as Ruby on Rails, Sinatra, and Hanami. These frameworks provide a structure for building web applications, which allows developers to focus on writing business logic instead of dealing with low-level details of web development.Ruby is also used in front-end development. For example, Ruby can be used to write scripts that automate front-end testing, or to write build tools that compile and optimize front-end assets.</li>
+        <li>Roles:Front-end Developer, Web Development Framework</li>
     </ol>
     </template>
     </category>
-    </topic>      
 
 </aiml>
