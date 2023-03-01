@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+    
   <category>
     <pattern>*</pattern>
     <template>Sorry, I dont know knowledges about that.</template>
@@ -39,7 +40,7 @@
                 <postback>HISTORY HISTORY</postback>
             </button>
             <button>
-                <text>Job opportunities of python</text>
+                <text>Job opportunities of Java</text>
                 <postback>JAVA JOB OPPORTUNITIES</postback>
             </button>
             </template>
@@ -59,7 +60,7 @@
                 <postback>C HISTORY</postback>
             </button>
             <button>
-                <text>Job opportunities of python</text>
+                <text>Job opportunities of C</text>
                 <postback>C JOB OPPORTUNITIES</postback>
             </button>
         </template>
@@ -79,7 +80,7 @@
                 <postback>C++ HISTORY</postback>
             </button>
             <button>
-                <text>Job opportunities of python</text>
+                <text>Job opportunities of C++</text>
                 <postback>C++ JOB OPPORTUNITIES</postback>
             </button>
         </template>
@@ -99,7 +100,7 @@
                 <postback>C# HISTORY</postback>
             </button>
             <button>
-                <text>Job opportunities of python</text>
+                <text>Job opportunities of C#</text>
                 <postback>C# JOB OPPORTUNITIES</postback>
             </button>
         </template>
@@ -119,7 +120,7 @@
                 <postback>HTML HISTORY</postback>
             </button>
             <button>
-                <text>Job opportunities of python</text>
+                <text>Job opportunities of HTML</text>
                 <postback>HTML JOB OPPORTUNITIES</postback>
             </button>
         </template>
@@ -139,7 +140,7 @@
                 <postback>CSS HISTORY</postback>
             </button>
             <button>
-                <text>Job opportunities of python</text>
+                <text>Job opportunities of CSS</text>
                 <postback>CSS JOB OPPORTUNITIES</postback>
             </button>
         </template>
@@ -159,7 +160,7 @@
                 <postback>PHP HISTORY</postback>
             </button>
             <button>
-                <text>Job opportunities of python</text>
+                <text>Job opportunities of PHP</text>
                 <postback>PHP JOB OPPORTUNITIES</postback>
             </button>
         </template>
@@ -179,7 +180,7 @@
                 <postback>RUBY HISTORY</postback>
             </button>
             <button>
-                <text>Job opportunities of python</text>
+                <text>Job opportunities of Ruby</text>
                 <postback>RUBY JOB OPPORTUNITIES</postback>
             </button>
         </template>
@@ -326,79 +327,121 @@
     <category>
         <pattern>PYTHON HISTORY</pattern>
         <template>
+            <ul>
             <li>Development started in December 1989: Python was created by Guido van Rossum, a Dutch programmer, in December 1989 while he was working at the National Research Institute for Mathematics and Computer Science in the Netherlands.</li>
             <li>First released in February 1991: The first version of Python, version 0.9.0, was released in February 1991. It was a simple scripting language that was easy to learn and use.</li>
+            </ul>
         </template>
     </category>
-
+    
+    <category>
+        <pattern>DETAILS OF *</pattern>
+        <template><srai><star/> DETAILS</srai></template>
+    </category>
+    
     <category>
         <pattern>JAVA HISTORY</pattern>
         <template>
+            <ul>
             <li>In 1991, a group of Sun Microsystems engineers led by James Gosling began work on a project called "Green" that was intended to develop a new programming language for use in consumer electronics devices.</li>
             <li>The Green team initially developed a language called Oak, but in 1995, Sun Microsystems officially released the language under the name Java.</li>
             <li>Java was designed to be platform-independent, meaning that it could be run on any system that had a Java Virtual Machine (JVM) installed. This made it ideal for use on the internet, as it could be used to create applets that could be run in a web browser.</li>
             <li>Java quickly became popular for internet programming, and in 1996, Sun Microsystems released the first version of the Java Development Kit (JDK).</li>
+            </ul>
        </template>
     </category>
 
     <category>
         <pattern>C HISTORY</pattern>
         <template>
+            <ul>
             <li>In the late 1960s, Bell Labs was developing an operating system called Multics. Ken Thompson and Dennis Ritchie were two of the developers on the project, and they began to feel that the existing programming languages were not well-suited for systems programming.</li>
             <li>In 1972, Dennis Ritchie began work on a new programming language called C. C was designed to be a low-level language that was easy to write, compile, and debug, and could be used for systems programming.</li>
             <li>C quickly became popular, and in 1978, Brian Kernighan and Dennis Ritchie published "The C Programming Language", a book that served as a reference manual for the language.</li>
             <li>In the 1980s, C became widely used for system programming, especially in the Unix operating system. The language was also used for the development of early video games.</li>
+            </ul>
         </template>
     </category>
 
     <category>
         <pattern>C++ HISTORY</pattern>
         <template>
+            <ul>
             <li>In 1979, Bjarne Stroustrup, a computer scientist at Bell Labs, began working on a language that would extend the C programming language with support for object-oriented programming.</li>
             <li>Stroustrup called the language "C with Classes", and it was designed to provide support for data abstraction, inheritance, and polymorphism.</li>
             <li>C++ quickly became popular, especially in the development of software systems that required high performance, such as operating systems and database management systems.</li>
             <li>Today, C++ is used in a wide range of applications, from operating systems and high-performance servers to video games and financial systems. It is also used as a foundation for other programming languages, such as Rust and Swift.</li>
+            </ul>
         </template>
     </category>
 
     <category>
         <pattern>C# HISTORY</pattern>
         <template>
+            <ul>
             <li>In the late 1990s, Microsoft recognized a need for a new programming language that would be well-suited for developing Windows applications and web services.</li>
             <li>In 1999, a team of developers at Microsoft, led by Anders Hejlsberg, began work on a new language called "Cool" (C-like Object Oriented Language). Cool was designed to be a simple, modern, and type-safe language that could be used to build Windows applications.</li>
             <li>Cool was eventually renamed to C#, and the first version of the language was released in 2002 as part of the Microsoft .NET Framework.</li>
             <li>C# was designed to be similar to other popular programming languages, such as C++ and Java, but with additional features, such as support for garbage collection, properties, and delegates.</li>
             <li>Today, C# is used to build a wide range of applications, from desktop software to mobile apps and web services. It is also a popular language for game development, thanks to the Unity game engine, which uses C# as its primary scripting language.</li>
+            </ul>
         </template>
     </category>
 
     <category>
         <pattern>HTML HISTORY</pattern>
         <template>
-            
+           <ul>
+               <li>In the late 1980s, Tim Berners-Lee, a computer scientist at CERN (the European Organization for Nuclear Research), was looking for a way to share information among scientists working on different projects.</li>
+               <li>Berners-Lee created a system called "Enquire" that used hypertext to link documents together, but he realized that he needed a way to create and format documents that could be displayed on different computers and operating systems.</li>
+               <li>In 1989, Berners-Lee created the first version of HTML, which included a small set of tags for formatting text and linking documents together.</li>
+               <li> Today, HTML is one of the core technologies used to create web pages, along with CSS (Cascading Style Sheets) for styling and layout, and JavaScript for interactivity and dynamic content.</li>
+           </ul>
         </template>
     </category>
 
     <category>
         <pattern>CSS HISTORY</pattern>
         <template>
-            
+            <ul>
+                <li>In the early days of the web, HTML was used to define the structure and content of web pages, but there was no way to control the layout and appearance of the content.</li>
+                <li>In 1994, a proposal for a style sheet language was put forward by Håkon Wium Lie, a researcher at CERN (the European Organization for Nuclear Research), and Bert Bos, who was working on the ViolaWWW web browser.</li>
+                <li>CSS was first implemented in the Arena web browser, and was later added to other browsers, such as Internet Explorer and Netscape Navigator.</li>
+                <li>Over the years, CSS was developed further, with new features being added to support more complex layouts and designs.</li>
+                <li>Today, CSS is an essential part of web development, used to control the layout, typography, and appearance of web pages. It is often used in conjunction with HTML and JavaScript to create rich, interactive web experiences.</li>
+            </ul>
         </template>
     </category>
 
     <category>
         <pattern>PHP HISTORY</pattern>
         <template>
-            
+            <ol>
+                <li>PHP was created in 1994 by Rasmus Lerdorf, a programmer in Canada. Lerdorf created a set of Common Gateway Interface (CGI) scripts in C that he used to track visits to his personal website.</li>
+                <li>In 1995, Lerdorf released the source code for his scripts, which he called "Personal Home Page Tools" or "PHP Tools". The scripts were quickly adopted by other developers, who added new features and functionality.</li>
+                <li>In 1998, the first version of the PHP language specification was published, and the first PHP conference was held in San Francisco.</li>
+                <li>Today, PHP is used by millions of websites and is one of the most popular server-side scripting languages in use. It is often used in conjunction with databases and other web technologies to create dynamic, interactive web applications.</li>
+            </ol>
         </template>
     </category>
     
     <category>
         <pattern>RUBY HISTORY</pattern>
         <template>
-            
+            <ol>
+                <li>Ruby was created by Yukihiro "Matz" Matsumoto, a programmer in Japan, who started work on the language in 1993. Matsumoto wanted to create a language that was easy to use, flexible, and enjoyable to work with.</li>
+                <li>The first public release of Ruby was in 1995, and the language quickly gained popularity in Japan.</li>
+                <li>In 1998, an English version of the Ruby documentation was released, which helped to make the language more accessible to programmers outside of Japan.</li>
+                <li>Over the next few years, Ruby continued to gain popularity, especially among web developers, who appreciated its flexibility and expressiveness.</li>
+                <li>Today, Ruby is widely used for web development, as well as for a variety of other applications, such as data analysis and scientific computing. It is known for its elegant syntax, powerful metaprogramming capabilities, and its focus on developer happiness.</li>
+            </ol>
         </template>
     </category>    
+    
+    <category>
+        <pattern>HISTORY OF *</pattern>
+        <template><srai><star/> HISTORY></srai></template>
+    </category>
     
     <category>
         <pattern>WHAT IS *</pattern>
@@ -643,7 +686,7 @@
         C is suitable for System Programming, Game development.
         <button>
             <text>More Details</text>
-            <postback>MORE JOB OPPORTUNITY DETAILS ABOUT PHP</postback>
+            <postback>MORE JOB OPPORTUNITY DETAILS ABOUT C</postback>
         </button>
     </template>
     </category>
@@ -758,7 +801,7 @@
     </category>
 
     <category>
-    <pattern>MORE JOB OPPORTUNITY DETAIS ABOUT C++</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT C++</pattern>
     <template>
         C++ is a widely used programming language, and there are many job opportunities for C++ developers across different industries. Here are some potential job opportunities for C++ developers:
     <ol>
@@ -771,7 +814,7 @@
     </category>
 
     <category>
-    <pattern>MORE JOB OPPORTUNITY DETAIS ABOUT C#</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT C#</pattern>
     <template>
     <ol>
         <li>Game Development:C# is a popular programming language used for game development because of its performance and ease of use. It is commonly used with game engines such as Unity and Unreal Engine to develop high-quality games for different platforms including desktop, mobile, and consoles.</li>
@@ -783,7 +826,7 @@
     </category>
 
     <category>
-    <pattern>MORE JOB OPPORTUNITY DETAIS ABOUT HTML</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT HTML</pattern>
     <template>
     <ol>
         <li>Web Development:HTML is used to create the structure of a web page, including headings, paragraphs, lists, links, images, and more. It is also used to add semantic meaning to content, which helps search engines and other software understand the purpose of each element on the page.</li>
@@ -793,7 +836,7 @@
     </category>
 
     <category>
-    <pattern>MORE JOB OPPORTUNITY DETAIS ABOUT CSS</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT CSS</pattern>
     <template>
     <ol>
         <li>Web Development:The job of a web developer using CSS involves creating visually appealing and user-friendly web pages using Cascading Style Sheets (CSS). CSS is a stylesheet language used to describe the presentation of a document written in HTML or XML. The primary responsibility of a web developer using CSS is to design and develop the user interface of web pages.</li>
@@ -803,7 +846,7 @@
     </category>
 
     <category>
-    <pattern>MORE JOB OPPORTUNITY DETAIS ABOUT PHP</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT PHP</pattern>
     <template>
     <ol>
         <li>Web Development:Web development with PHP involves using the PHP programming language to create dynamic and interactive web pages. PHP is a popular server-side scripting language that is used to develop websites and web applications.</li>
@@ -813,7 +856,7 @@
     </category>
     
     <category>
-    <pattern>MORE JOB OPPORTUNITY DETAIS ABOUT RUBY</pattern>
+    <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT RUBY</pattern>
     <template>
     <ol>
         <li>Web Development:Ruby is a powerful programming language that is widely used in web development.Ruby is used to develop web applications using popular frameworks such as Ruby on Rails, Sinatra, and Hanami. These frameworks provide a structure for building web applications, which allows developers to focus on writing business logic instead of dealing with low-level details of web development.Ruby is also used in front-end development. For example, Ruby can be used to write scripts that automate front-end testing, or to write build tools that compile and optimize front-end assets.</li>
