@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Sorry, I dont know knowledges about that.</template>
+  </category>
+  
+    <category>
+        <pattern>PYTHON</pattern>
+        <template>
+            Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.
+            Enter "More" for more details.
+            <think><set language = "topic">Python</set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>JAVA</pattern>
+            <template>
+            Java is a programming language and computing platform first released by Sun Microsystems in 1995.
+            Enter "More" for more details.
+            <think><set language = "topic">Java</set></think>
+            </template>
+    </category>
+
+    <category>
+        <pattern>C</pattern>
+        <template>
+            C is a general-purpose programming language that is extremely popular, simple, and flexible to use.
+            Enter "More" for more details.
+        </template>
+    </category>
+
+    <category>
+        <pattern>C++</pattern>
+        <template>
+            C++ is a general-purpose, object-oriented programming language. It was created by Bjarne Stroustrup at Bell Labs circa 1980.
+            Enter "More" for more details.
+        </template>
+    </category>
+
+    <category>
+        <pattern>C#</pattern>
+        <template>
+            C#, pronounced "C-sharp," is an object-oriented programming language from Microsoft that enables developers to build applications that run on the .NET platform.
+            Enter "More" for more details.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HTML</pattern>
+        <template>
+            HTML stands for HyperText Markup Language. It is a standard markup language for web page creation.
+            Enter "More" for more details.
+        </template>
+    </category>    
+
+    <category>
+        <pattern>CSS</pattern>
+        <template>
+            Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.
+            Enter "More" for more details.
+        </template>
+    </category>  
+
+    <category>
+        <pattern>PHP</pattern>
+        <template>
+            PHP (Hypertext Preprocessor) is a popular server-side scripting language used to create dynamic web pages and web applications.
+            Enter "More" for more details.
+        </template>
+    </category>
+
+    <category>
+        <pattern>RUBY</pattern>
+        <template>
+            Ruby is a dynamic, interpreted, high-level programming language that is designed for general-purpose programming.
+            Enter "More" for more details.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT IS *</pattern>
+        <template>
+            <srai><star/></srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>TELL ME ABOUT *</pattern>
+        <template>
+            <srai><star/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TELL ME WHAT IS *</pattern>
+        <template>
+            <srai><star/></srai>
+        </template>
+    </category>
+
+    <category>
+    <pattern>LEARN PYTHON</pattern>
+    <template>
+        Here is some turorials of learning python.
+        <link>
+            <text>w3school Python tutorial</text>
+            <url>https://www.w3schools.com/python/default.asp</url>
+        </link>
+    </template>
+    </category>
+
+    <category>
+    <pattern>LEARN JAVA</pattern>
+    <template>
+        Here is a turorial of learning java.
+        <link>
+            <text>w3school Java tutorial</text>
+            <url>https://www.w3schools.com/java/default.asp</url>
+        </link>
+    </template>
+    </category>
+
+    <category>
+    <pattern>LEARN HTML</pattern>
+    <template>
+        Here is a turorial of learning HTML.
+        <link>
+            <text>w3school HTML tutorial</text>
+            <url>https://www.w3schools.com/html/default.asp</url>
+        </link>
+    </template>
+    </category>
+
+    <category>
+    <pattern>LEARN CSS</pattern>
+    <template>
+        Here is a turorial of learning CSS.
+        <link>
+            <text>w3school CSS tutorial</text>
+            <url>https://www.w3schools.com/css/default.asp</url>
+        </link>
+    </template>
+    </category>
+
+    <category>
+    <pattern>LEARN CSS</pattern>
+    <template>
+        Here is a turorial of learning C.
+        <link>
+            <text>w3school C tutorial</text>
+            <url>https://www.w3schools.com/c/index.php</url>
+        </link>
+    </template>
+    </category>
+    
+    <category>
+    <pattern>LEARN C++</pattern>
+    <template>
+        Here is a turorial of learning HTML.
+        <link>
+            <text>w3school C++ tutorial</text>
+            <url>https://www.w3schools.com/cpp/default.asp</url>
+        </link>
+    </template>
+    </category>    
+
+    <category>
+    <pattern>LEARN C++</pattern>
+    <template>
+        Here is a turorial of learning HTML.
+        <link>
+            <text>w3school C++ tutorial</text>
+            <url>https://www.w3schools.com/cpp/default.asp</url>
+        </link>
+    </template>
+    </category> 
+
+    <category>
+    <pattern>LEARN C#</pattern>
+    <template>
+        Here is a turorial of learning C#.
+        <link>
+            <text>w3school C# tutorial</text>
+            <url>https://www.w3schools.com/cs/index.php</url>
+        </link>
+    </template>
+    </category>
+    
+    <category>
+    <pattern>LEARN javascript</pattern>
+    <template>
+        Here is a turorial of learning javascript.
+        <link>
+            <text>w3school javascript tutorial</text>
+            <url>https://www.w3schools.com/js/default.asp</url>
+        </link>
+    </template>
+    </category>
+
+    <category>
+    <pattern>LEARN PHP</pattern>
+    <template>
+        Here is a turorial of learning php.
+        <link>
+            <text>w3school php tutorial</text>
+            <url>https://www.w3schools.com/php/default.asp</url>
+        </link>
+    </template>
+    </category>
+
+    <category>
+    <pattern>LEARN PHP</pattern>
+    <template>
+        Here is a turorial of learning php.
+        <link>
+            <text>w3school php tutorial</text>
+            <url>https://www.w3schools.com/php/default.asp</url>
+        </link>
+    </template>
+    </category>
+
+    <category>
+    <pattern>LEARN RUBY</pattern>
+    <template>
+        Here is a turorial of learning ruby.
+        <link>
+            <text>tutorialspoint ruby tutorial</text>
+            <url>https://www.tutorialspoint.com/ruby/index.htm</url>
+        </link>
+    </template>
+    </category>
+    
+    <category>
+    <pattern>WHERE TO *</pattern>
+    <template>
+        <srai><star/></srai>
+    </template>
+    </category>
+    
+    <category>
+    <pattern>WHERE CAN I *</pattern>
+    <template>
+        <srai><star/></srai>
+    </template>
+    </category>
+
+    <category>
+    <pattern>LANGUAGE FOR BEGINNER</pattern>
+    <template>
+        <srai>LANGUAGES FOR BEGINNER</srai>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHICH LANGUAGE SHOULD I LEARN FIRST</pattern>
+    <template>
+        <srai>LANGUAGES FOR BEGINNER</srai>
+    </template>
+    </category>
+    
+    <category>
+    <pattern>LANGUAGES FOR BEGINNER</pattern>  
+    <template>
+    There are several programming languages that are suitable for beginners, each with its own strengths and weaknesses. Here are a few popular options:
+    <ol>
+        <li>Python: Python is a popular language for beginners because it has a simple and readable syntax, which means it's easy to learn and understand. Python is also versatile and can be used for web development, data analysis, machine learning, and more.</li>
+        <li>Java: Java is another popular language for beginners. It's used in many applications and has a strong community, which means there are plenty of resources available for learning. Java is also an object-oriented language, which means it teaches good programming practices from the start.</li>
+        <li>JavaScript: JavaScript is a language that's used in web development, and is an essential skill for any front-end developer. It has a relatively simple syntax, and is easy to learn for beginners.</li>
+        <li>Ruby: Ruby is a popular language for web development and is used to build websites like Airbnb and Shopify. It has a simple and easy-to-learn syntax, which makes it a great option for beginners.</li>
+    </ol>
+    </template>
+    </category>
+
+    <category>
+    <pattern>JOB OPPORTUNITIES OF *</pattern>    
+    <template>
+        <srai><star/> JOB OPPORTUNITIES</srai>
+    </template>
+    </category>
+    
+    <category>
+    <pattern>PYTHON JOB OPPORTUNITIES</pattern>    
+    <template>
+        Python is suitable for Web development, Data science and Cybersecurity.
+        <think><set job = "topic">Python</set></think>
+        Enter "More" for more job opportunity details.
+    </template>
+    </category>    
+
+    <category>
+    <pattern>JAVA JOB OPPORTUNITIES</pattern>    
+    <template>
+        Java is suitable for Web Development,Cyber Security and Cloud Computing.
+        <think><set job = "topic">Java</set></think>
+        Enter "More" for more job opportunity details.
+    </template>
+    </category> 
+
+    <category>
+    <pattern>C JOB OPPORTUNITIES</pattern>    
+    <template>
+        C is suitable for System Programming, Game development.
+        <think><set job = "topic">C</set></think>
+        Enter "More" for more job opportunity details.
+    </template>
+    </category>
+
+    <category>
+    <pattern>C++ JOB OPPORTUNITIES</pattern>    
+    <template>
+        C++ is suitable for Game Development and Operating System Development.
+        <think><set job = "topic">C++</set></think>
+        Enter "More" for more job opportunity details.
+    </template>
+    </category>
+
+    <category>
+    <pattern>C# JOB OPPORTUNITIES</pattern>    
+    <template>
+        C# is suitable for Web development and Game Development.
+        <think><set job = "topic">C#</set></think>
+        Enter "More" for more job opportunity details.
+    </template>
+    </category>
+
+    <category>
+    <pattern>HTML JOB OPPORTUNITIES</pattern>    
+    <template>
+        HTML is suitable for 
+        <think><set job = "topic">HTML</set></think>
+        Enter "More" for more job opportunity details.
+    </template>
+    </category>
+
+    <category>
+    <pattern>CSS JOB OPPORTUNITIES</pattern>    
+    <template>
+        CSS is suitable for 
+        <think><set job = "topic">CSS</set></think>
+        Enter "More" for more job opportunity details.
+    </template>
+    </category>
+
+    <category>
+    <pattern>PHP JOB OPPORTUNITIES</pattern>    
+    <template>
+        PHP is suitable for 
+        <think><set job = "topic">PHP</set></think>
+        Enter "More" for more job opportunity details.
+    </template>
+    </category>
+
+    <category>
+    <pattern>RUBY JOB OPPORTUNITIES</pattern>    
+    <template>
+        PHP is suitable for 
+        <think><set job = "topic">Ruby</set></think>
+        Enter "More" for more job opportunity details.
+    </template>
+    </category>
+
+    <topic job = "Python">
+    <category>
+    <pattern>MORE</pattern>
+    <template>
+    Python is a widely used programming language, and there are many job opportunities for Python developers across different industries:
+    <ol>
+        <li>Web Development: Python is a popular language for web development, and there are many job opportunities for Python developers in this field. Python web frameworks like Django and Flask are commonly used in web development projects.</li>
+        <li>Data Science: Python is widely used in data science and machine learning projects. Companies in industries like healthcare, finance, and technology are always on the lookout for Python developers with experience in data science and machine learning.</li>
+        <li>Cybersecurity: Python is commonly used in cybersecurity, and there are many job opportunities for Python developers in this field. Python can be used to develop tools for vulnerability scanning, penetration testing, and network analysis.</li>
+    </ol>
+    </template>
+    </category>
+    </topic>
+
+    <topic job = "Java">
+    <category>
+    <pattern>MORE</pattern>
+    <template>
+    Java is a widely used programming language, and there are many job opportunities for Java developers across different industries:
+    <ol>
+        <li>Web Development: Java is also used in web development, and there are many job opportunities for Java developers in this field. Java frameworks like Spring MVC, Struts, and JSF are commonly used in web development projects.</li>
+        <li>Cyber Security: Java is a programming language that has been widely used in the development of software and applications related to cybersecurity. Java's popularity in cybersecurity is due to its platform independence, which means that the same code can run on different operating systems without modification.</li>
+        <li>Cloud Computing: Java is commonly used in cloud computing, and there are many job opportunities for Java developers in this field. Java can be used to develop cloud applications using platforms like Amazon Web Services (AWS) and Microsoft Azure.</li>
+    </ol>
+    </template>
+    </category>
+    </topic>
+
+    <topic job = "C">
+    <category>
+    <pattern>MORE</pattern>
+    <template>
+    Java is a widely used programming language, and there are many job opportunities for Java developers across different industries:
+    <ol>
+        <li>System Programming: C is also used in system programming, and there are many job opportunities for C developers in this field. C is used to write operating systems, device drivers, and other system-level software.</li>
+        <li>Gaming: C is commonly used in game development, and there are many job opportunities for C developers in this field. C is used to write the low-level game engine code, game physics, and other performance-critical parts of the game.</li>
+    </ol>
+    </template>
+    </category>
+    </topic>
+    
+    <topic language = "C++">
+    <category>
+    <pattern>MORE</pattern>
+    <template>
+        C++ is a widely used programming language, and there are many job opportunities for C++ developers across different industries. Here are some potential job opportunities for C++ developers:
+    <ol>
+        <li>Game Development: C++ is commonly used in game development, and there are many job opportunities for C++ developers in this field. C++ is used to write game engines, game physics, and other performance-critical parts of the game.</li>
+        <li>Operating System Development: C++ is commonly used in operating system development, and there are many job opportunities for C++ developers in this field. C++ is used to write operating system kernels, device drivers, and other system-level software.</li>
+    </ol>
+    </template>
+    </category>
+    </topic> 
+
+    <topic language = "C#">
+    <category>
+    <pattern>MORE</pattern>
+    <template>
+    <ol>
+        <li>Game Development:C# is a popular programming language used for game development because of its performance and ease of use. It is commonly used with game engines such as Unity and Unreal Engine to develop high-quality games for different platforms including desktop, mobile, and consoles.</li>
+        <li>Web Development:C# is a popular programming language used for web development due to its strong typing, scalability, and performance. C# is commonly used in conjunction with the .NET framework to develop web applications that run on Windows-based servers.</li>
+    </ol>
+    </template>
+    </category>
+    </topic>
+    
+    <topic language = "HTML">
+    <category>
+    <pattern>MORE</pattern>
+    <template>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    </template>
+    </category>
+    </topic> 
+
+    <topic language = "CSS">
+    <category>
+    <pattern>MORE</pattern>
+    <template>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    </template>
+    </category>
+    </topic>
+
+    <topic language = "PHP">
+    <category>
+    <pattern>MORE</pattern>
+    <template>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    </template>
+    </category>
+    </topic>  
+    
+    <topic language = "Ruby">
+    <category>
+    <pattern>MORE</pattern>
+    <template>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    </template>
+    </category>
+    </topic>      
+
+</aiml>
