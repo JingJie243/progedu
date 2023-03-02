@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
     
-    <response>
-        <speak>Hello, I am Prog Edu, what knowleges about programming language can I provide to you?</speak>
-    </response>
+    <category>
+        <pattern>HI</pattern>
+        <template>Hi! What can I do for you?</template>
+    </category>
+    
+    <category>
+        <pattern>HI!</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HELLO</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HELLO!</pattern>
+        <template><srai>HI</srai></template>
+    </category>
     
   <category>
     <pattern>*</pattern>
@@ -344,6 +360,36 @@
     </category>
 
     <category>
+        <pattern>DETAILS OF *</pattern>
+        <template><srai><star/> DETAILS</srai></template>
+    </category>
+    
+    <category>
+        <pattern>DEFINE *</pattern>
+        <template><srai>* DETAILS</srai></template>
+    </category>
+    
+    <category>
+        <pattern>INFORMATIONS ABOUT *</pattern>
+        <template><srai><srar/> DETAILS</srai></template>
+    </category>
+
+    <category>
+        <pattern>INFORMATION ABOUT *</pattern>
+        <template><srai><srar/> DETAILS</srai></template>
+    </category>
+
+    <category>
+        <pattern>MORE DETAILS ABOUT *</pattern>
+        <template><srai>* DETAILS</srai></template>
+    </category>
+    
+    <category>
+        <pattern></pattern>
+        <template></template>
+    </category>
+
+    <category>
         <pattern>PYTHON HISTORY</pattern>
         <template>
             <ul>
@@ -351,11 +397,6 @@
             <li>First released in February 1991: The first version of Python, version 0.9.0, was released in February 1991. It was a simple scripting language that was easy to learn and use.</li>
             </ul>
         </template>
-    </category>
-    
-    <category>
-        <pattern>DETAILS OF *</pattern>
-        <template><srai><star/> DETAILS</srai></template>
     </category>
     
     <category>
