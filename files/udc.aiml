@@ -3,7 +3,14 @@
     
     <category>
         <pattern>HI</pattern>
-        <template>Hi! What can I do for you?</template>
+        <template>
+            <random>
+                <li>Hello! Good to see you!</li>
+                <li>Hi! What do you want to learn?</li>
+                <li>Hello! Nice to meet you!</li>
+                <li>Hi! What can I do for you?</li>
+            </random>
+        </template>
     </category>
     
     <category>
@@ -19,6 +26,32 @@
     <category>
         <pattern>HELLO!</pattern>
         <template><srai>HI</srai></template>
+    </category>
+   
+   <category>
+       <pattern>HEY</pattern>
+       <template><srai>HI</srai></template>
+   </category>
+ 
+    <category>
+       <pattern>HEY!</pattern>
+       <template><srai>HI</srai></template>
+   </category>
+ 
+   <category>
+       <pattern>YOUR NAME *</pattern>
+       <template><srai>YOUR NAME</srai></template>
+   </category>
+    
+    <category>
+        <pattern>YOUR NAME</pattern>
+        <template>
+        <random>
+            <li>My name is ProgEdu!</li>
+            <li>My name is ProgEdu and my interest is to provide knowledges about programming languages.</li>
+            <li>My name is ProgEdu, I like to provide knowledges about programming languages.</li>
+        </random>
+        </template>
     </category>
     
   <category>
@@ -45,7 +78,7 @@
             </button>
         </template>
     </category>
-
+    
     <category>
         <pattern>JAVA</pattern>
             <template>
@@ -527,7 +560,7 @@
     <category>
     <pattern>LEARN PYTHON</pattern>
     <template>
-        Here is some turorials of learning python.
+        Here is a turorial of learning python.
         <link>
             <text>w3school Python tutorial</text>
             <url>https://www.w3schools.com/python/default.asp</url>
@@ -669,6 +702,53 @@
         <srai><star/></srai>
     </template>
     </category>
+    
+    <category>
+        <pattern>SELF STUDY</pattern>
+        <template>
+            <button>
+                <text>Python</text>
+                <postback>PYTHON</postback>
+            </button>
+            <button>
+                <text>Java</text>
+                <postback>JAVA</postback>
+            </button>
+            <button>
+                <text>C</text>
+                <postback>C</postback>
+            </button>
+            <button>
+                <text>C++</text>
+                <postback>C++</postback>
+            </button>
+            <button>
+                <text>C#</text>
+                <postback>C#</postback>
+            </button>
+            <button>
+                <text>HTML</text>
+                <postback>HTML</postback>
+            </button>
+            <button>
+                <text>CSS</text>
+                <postback>CSS</postback>
+            </button>
+            <button>
+                <text>PHP</text>
+                <postback>PHP</postback>
+            </button>
+            <button>
+                <text>RUBY</text>
+                <postback>RUBY</postback>
+            </button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>FUNCTION</pattern>
+        <template><srai>SELF STUDY</srai></template>
+    </category>
 
     <category>
     <pattern>LANGUAGE FOR BEGINNER</pattern>
@@ -689,6 +769,16 @@
     <template>
         <srai>LANGUAGES FOR BEGINNER</srai>
     </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT IS THE EASIEST LANGUAGE</pattern>
+        <template><srai>LANGUAGES FOR BEGINNER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>WHICH LANGUAGE IS EASY TO LEARN</pattern>
+        <template>LANGUAGES FOR BEGINNER</template>
     </category>
 
     <category>
@@ -825,9 +915,9 @@
         <li>Web Development: Python is a popular language for web development, and there are many job opportunities for Python developers in this field. Python web frameworks like Django and Flask are commonly used in web development projects.</li>
         <li>Roles:Front-end and Back-end Developer</li>
         <li>Data Science: Python is widely used in data science and machine learning projects. Companies in industries like healthcare, finance, and technology are always on the lookout for Python developers with experience in data science and machine learning.</li>
-        <li>Roles:Data E</li>
+        <li>Roles:Data Engineer</li>
         <li>Cybersecurity: Python is commonly used in cybersecurity, and there are many job opportunities for Python developers in this field. Python can be used to develop tools for vulnerability scanning, penetration testing, and network analysis.</li>
-        <li>Roles:Information Security Analysis, Security Engineer,Security Architect, Ethical Hacker</li>
+        Roles:Information Security Analysis, Security Engineer,Security Architect, Ethical Hacker
     </ol>
     </template>
     </category>
@@ -878,7 +968,7 @@
     <template>
     <ol>
         <li>Game Development:C# is a popular programming language used for game development because of its performance and ease of use. It is commonly used with game engines such as Unity and Unreal Engine to develop high-quality games for different platforms including desktop, mobile, and consoles.</li>
-        <li>Roles:Game Programmer, Game Designer using Uinity.</li>    
+        <li>Roles:Game Programmer, Game Designer using Uinity.</li> 
         <li>Web Development:C# is a popular programming language used for web development due to its strong typing, scalability, and performance. C# is commonly used in conjunction with the .NET framework to develop web applications that run on Windows-based servers.</li>
         <li>Roles:Front-end Developer</li>
     </ol>
