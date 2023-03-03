@@ -54,9 +54,38 @@
         </template>
     </category>
     
+    <category>
+        <pattern>SEE YOU NEXT TIME</pattern>
+        <template><srai>BYE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>BYE *</pattern>
+        <template><srai>BYE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* BYE</pattern>
+        <template><srai>BYE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>BYE</pattern>
+        <template>
+            <random>
+                <li>Bye, see you next time!</li>
+                <li>Bye!</li>
+                <li>Byebye</li>
+                <li>Byebye, take care</li>
+            </random>    
+        </template>
+    </category>
+    
   <category>
     <pattern>*</pattern>
-    <template>Sorry, I dont know knowledges about that.</template>
+    <template>
+    Sorry, I dont know knowledges about that. You may ask knowledges about programming language, for example:"self study" or "What is python"
+    </template>
   </category>
   
     <category>
@@ -76,6 +105,10 @@
                 <text>Job opportunities of python</text>
                 <postback>PYTHON JOB OPPORTUNITIES</postback>
             </button>
+            <button>
+                <text>Learn Python</text>
+                <postback>LEARN PYTHON</postback>
+            </button>
         </template>
     </category>
     
@@ -90,11 +123,15 @@
             </button>
             <button>
                 <text>History</text>
-                <postback>HISTORY HISTORY</postback>
+                <postback>JAVA HISTORY</postback>
             </button>
             <button>
                 <text>Job opportunities of Java</text>
                 <postback>JAVA JOB OPPORTUNITIES</postback>
+            </button>
+            <button>
+                <text>Learn Java</text>
+                <postback>LEARN JAVA</postback>
             </button>
             </template>
     </category>
@@ -116,6 +153,10 @@
                 <text>Job opportunities of C</text>
                 <postback>C JOB OPPORTUNITIES</postback>
             </button>
+            <button>
+                <text>Learn C</text>
+                <postback>LEARN C</postback>
+            </button>
         </template>
     </category>
     
@@ -136,7 +177,7 @@
             Enter "More" for more details.
             <button>
                 <text>More Details</text>
-                <postback>C++ DETAILS</postback>
+                <postback>C plus plus DETAILS</postback>
             </button>
             <button>
                 <text>History</text>
@@ -145,6 +186,10 @@
             <button>
                 <text>Job opportunities of C++</text>
                 <postback>C++ JOB OPPORTUNITIES</postback>
+            </button>
+            <button>
+                <text>Learn C++</text>
+                <postback>LEARN C plus plus</postback>
             </button>
         </template>
     </category>
@@ -161,7 +206,7 @@
             Enter "More" for more details.
             <button>
                 <text>More Details</text>
-                <postback>C# DETAILS</postback>
+                <postback>C sharp DETAILS</postback>
             </button>
             <button>
                 <text>History</text>
@@ -170,6 +215,10 @@
             <button>
                 <text>Job opportunities of C#</text>
                 <postback>C# JOB OPPORTUNITIES</postback>
+            </button>
+            <button>
+                <text>Learn C#</text>
+                <postback>LEARN C sharp</postback>
             </button>
         </template>
     </category>
@@ -191,6 +240,10 @@
                 <text>Job opportunities of HTML</text>
                 <postback>HTML JOB OPPORTUNITIES</postback>
             </button>
+            <button>
+                <text>Learn HTML</text>
+                <postback>LEARN HTML</postback>
+            </button>
         </template>
     </category>    
 
@@ -211,6 +264,10 @@
                 <text>Job opportunities of CSS</text>
                 <postback>CSS JOB OPPORTUNITIES</postback>
             </button>
+            <link>
+                <text>Learn CSS</text>
+                <url>LEARN CSS</url>
+            </link>
         </template>
     </category>  
 
@@ -231,6 +288,10 @@
                 <text>Job opportunities of PHP</text>
                 <postback>PHP JOB OPPORTUNITIES</postback>
             </button>
+            <button>
+                <text>Learn PHP</text>
+                <postback>LEARN PHP</postback>
+            </button>
         </template>
     </category>
 
@@ -250,6 +311,10 @@
             <button>
                 <text>Job opportunities of Ruby</text>
                 <postback>RUBY JOB OPPORTUNITIES</postback>
+            </button>
+            <button>
+                <text>Learn Ruby</text>
+                <postback>LEARN RUBY</postback>
             </button>
         </template>
     </category>
@@ -305,6 +370,11 @@
 
     <category>
         <pattern>C++ DETAILS</pattern>
+        <template><srai>C PLUS PLUS DETAILS</srai></template>
+    </category>
+
+    <category>
+        <pattern>C plus plus DETAILS</pattern>
         <template>
             C++ is a general-purpose, object-oriented programming language that was developed by Bjarne Stroustrup at Bell Labs in the early 1980s. C++ is an extension of the C programming language, with additional features such as object-oriented programming, templates, and exception handling.
           <ol>
@@ -317,9 +387,14 @@
           </ol>
         </template>
     </category>
-
+    
     <category>
         <pattern>C# DETAILS</pattern>
+        <template><srai>C sharp DETAILS</srai></template>
+    </category>
+    
+    <category>
+        <pattern>C sharp DETAILS</pattern>
         <template>
             C# (pronounced "C sharp") is a modern, object-oriented programming language developed by Microsoft in the early 2000s. C# is designed to be easy to learn and use, and it has become a popular choice for developing Windows desktop applications, web applications, and games.
             <ol>
@@ -399,22 +474,22 @@
     
     <category>
         <pattern>DEFINE *</pattern>
-        <template><srai>* DETAILS</srai></template>
+        <template><srai><star/> DETAILS</srai></template>
     </category>
     
     <category>
         <pattern>INFORMATIONS ABOUT *</pattern>
-        <template><srai><srar/> DETAILS</srai></template>
+        <template><srai><star/> DETAILS</srai></template>
     </category>
 
     <category>
         <pattern>INFORMATION ABOUT *</pattern>
-        <template><srai><srar/> DETAILS</srai></template>
+        <template><srai><star/> DETAILS</srai></template>
     </category>
 
     <category>
         <pattern>MORE DETAILS ABOUT *</pattern>
-        <template><srai>* DETAILS</srai></template>
+        <template><srai><star/> DETAILS</srai></template>
     </category>
     
     <category>
@@ -458,6 +533,11 @@
 
     <category>
         <pattern>C++ HISTORY</pattern>
+        <template><srai>C plus plus HISTORY</srai></template>
+    </category>
+
+    <category>
+        <pattern>C plus plus HISTORY</pattern>
         <template>
             <ul>
             <li>In 1979, Bjarne Stroustrup, a computer scientist at Bell Labs, began working on a language that would extend the C programming language with support for object-oriented programming.</li>
@@ -470,6 +550,11 @@
 
     <category>
         <pattern>C# HISTORY</pattern>
+        <template><srai>C sharp HISTORY</srai></template>
+    </category>
+
+    <category>
+        <pattern>C sharp HISTORY</pattern>
         <template>
             <ul>
             <li>In the late 1990s, Microsoft recognized a need for a new programming language that would be well-suited for developing Windows applications and web services.</li>
@@ -533,8 +618,33 @@
     
     <category>
         <pattern>HISTORY OF *</pattern>
-        <template><srai><star/> HISTORY></srai></template>
+        <template><srai><star/> HISTORY</srai></template>
     </category>
+    
+        <category>
+        <pattern>TELL ME HISTORY OF *</pattern>
+        <template><srai><star/> HISTORY</srai></template>
+    </category>
+    
+        <category>
+        <pattern>WHAT IS THE HISTORY OF *</pattern>
+        <template><srai><star/> HISTORY</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HISTORY DETAILS OF *</pattern>
+        <template><srai><star/> HISTORY</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HISTORY INFORMATIONS OF *</pattern>
+        <template><srai><star/> HISTORY</srai></template>
+    </category>
+   
+    <category>
+        <pattern>HISTORY INFORMATION OF *</pattern>
+        <template><srai><star/> HISTORY</srai></template>
+    </category>   
     
     <category>
         <pattern>WHAT IS *</pattern>
@@ -602,7 +712,7 @@
     </category>
 
     <category>
-    <pattern>LEARN CSS</pattern>
+    <pattern>LEARN C</pattern>
     <template>
         Here is a turorial of learning C.
         <link>
@@ -613,7 +723,12 @@
     </category>
     
     <category>
-    <pattern>LEARN C++</pattern>
+        <pattern>LEARN C++</pattern>
+        <template><srai>LEARN C plus plus</srai></template>
+    </category>
+    
+    <category>
+    <pattern>LEARN C plus plus</pattern>
     <template>
         Here is a turorial of learning HTML.
         <link>
@@ -624,18 +739,23 @@
     </category>    
 
     <category>
-    <pattern>LEARN C++</pattern>
+    <pattern>LEARN HTML</pattern>
     <template>
         Here is a turorial of learning HTML.
         <link>
-            <text>w3school C++ tutorial</text>
-            <url>https://www.w3schools.com/cpp/default.asp</url>
+            <text>w3school HTML tutorial</text>
+            <url>https://www.w3schools.com/html/</url>
         </link>
     </template>
     </category> 
 
     <category>
-    <pattern>LEARN C#</pattern>
+        <pattern>LEARN C#</pattern>
+        <template><srai>LEARN C sharp</srai></template>
+    </category>
+
+    <category>
+    <pattern>LEARN C sharp</pattern>
     <template>
         Here is a turorial of learning C#.
         <link>
@@ -652,17 +772,6 @@
         <link>
             <text>w3school javascript tutorial</text>
             <url>https://www.w3schools.com/js/default.asp</url>
-        </link>
-    </template>
-    </category>
-
-    <category>
-    <pattern>LEARN PHP</pattern>
-    <template>
-        Here is a turorial of learning php.
-        <link>
-            <text>w3school php tutorial</text>
-            <url>https://www.w3schools.com/php/default.asp</url>
         </link>
     </template>
     </category>
@@ -751,45 +860,99 @@
     </category>
 
     <category>
+        <pattern>ALL LANGUAGES</pattern>
+        <template><srai>SELF STUDY</srai></template>
+    </category>
+    
+    <category>
+        <pattern>ALL LANGUAGE</pattern>
+        <template><srai>SELF STUDY</srai></template>
+    </category>
+
+    <category>
+        <pattern>ALL PROGRAMMING LANGUAGE</pattern>
+        <template><srai>SELF STUDY</srai></template>
+    </category>
+
+    <category>
+        <pattern>ALL PROGRAMMING LANGUAGES</pattern>
+        <template><srai>SELF STUDY</srai></template>
+    </category>
+    
+    <category>
     <pattern>LANGUAGE FOR BEGINNER</pattern>
     <template>
-        <srai>LANGUAGES FOR BEGINNER</srai>
+        <srai>LANGUAGES FOR BEGINNERS</srai>
     </template>
     </category>
 
     <category>
     <pattern>WHICH LANGUAGE SHOULD I LEARN FIRST</pattern>
     <template>
-        <srai>LANGUAGES FOR BEGINNER</srai>
+        <srai>LANGUAGES FOR BEGINNERS</srai>
     </template>
     </category>
 
     <category>
     <pattern>WHICH LANGUAGES SHOULD I LEARN FIRST</pattern>
     <template>
-        <srai>LANGUAGES FOR BEGINNER</srai>
+        <srai>LANGUAGES FOR BEGINNERS</srai>
     </template>
     </category>
     
     <category>
         <pattern>WHAT IS THE EASIEST LANGUAGE</pattern>
-        <template><srai>LANGUAGES FOR BEGINNER</srai></template>
+        <template><srai>LANGUAGES FOR BEGINNERS</srai></template>
     </category>
     
     <category>
         <pattern>WHICH LANGUAGE IS EASY TO LEARN</pattern>
-        <template>LANGUAGES FOR BEGINNER</template>
+        <template><srai>LANGUAGES FOR BEGINNERS</srai></template>
+    </category>
+    
+    <category>
+        <pattern>as a beginner how i can start my coding journals</pattern>
+        <template><srai>LANGUAGES FOR BEGINNERS</srai></template>
+    </category>
+    
+    <category>
+        <pattern>WHAT IS THE LANGUAGE SUITABLE FOR BEGINNERS</pattern>
+        <template><srai>LANGUAGES FOR BEGINNERS</srai></template>
     </category>
 
     <category>
+        <pattern>LANGUAGES SUITABLE FOR BEGINNERS</pattern>
+        <template><srai>LANGUAGES FOR BEGINNERS</srai></template>
+    </category>
+
+    <category>
+        <pattern>LANGUAGE SUITABLE FOR BEGINNERS</pattern>
+        <template><srai>LANGUAGES FOR BEGINNERS</srai></template>
+    </category>
+    
+    <category>
     <pattern>WHAT LANGUAGE I CAN LEARN</pattern>
     <template>
-        <srai>LANGUAGES FOR BEGINNER</srai>
+        <srai>LANGUAGES FOR BEGINNERS</srai>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHAT LANGUAGES I CAN LEARN</pattern>
+    <template>
+        <srai>LANGUAGES FOR BEGINNERS</srai>
+    </template>
+    </category>
+
+    <category>
+    <pattern>LANGUAGE FOR BEGINNERS</pattern>
+    <template>
+        <srai>LANGUAGES FOR BEGINNERS</srai>
     </template>
     </category>
     
     <category>
-    <pattern>LANGUAGES FOR BEGINNER</pattern>  
+    <pattern>LANGUAGES FOR BEGINNERS</pattern>  
     <template>
     There are several programming languages that are suitable for beginners, each with its own strengths and weaknesses. Here are a few popular options:
     <ol>
@@ -840,9 +1003,14 @@
         </button>
     </template>
     </category>
-
+    
     <category>
-    <pattern>C++ JOB OPPORTUNITIES</pattern>    
+        <pattern>C++ JOB OPPORTUNITIES</pattern>
+        <template><srai>C plus plus JOB OPPORTUNITIES</srai></template>
+    </category>
+    
+    <category>
+    <pattern>C plus plus JOB OPPORTUNITIES</pattern>    
     <template>
         C++ is suitable for Game Development and Operating System Development.
         <button>
@@ -853,7 +1021,12 @@
     </category>
 
     <category>
-    <pattern>C# JOB OPPORTUNITIES</pattern>    
+        <pattern>C# JOB OPPORTUNITIES</pattern>
+        <template><srai>C sharp JOB OPPORTUNITIES</srai></template>
+    </category>
+
+    <category>
+    <pattern>C sharp JOB OPPORTUNITIES</pattern>    
     <template>
         C# is suitable for Web development and Game Development.
         <button>
@@ -949,9 +1122,14 @@
     </ol>
     </template>
     </category>
-
+    
     <category>
-    <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT C++</pattern>
+        <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT C++</pattern>
+        <template><srai>MORE JOB OPPORTUNITY DETAILS ABOUT C plus plus</srai></template>
+    </category>
+    
+    <category>
+    <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT C plus plus</pattern>
     <template>
         C++ is a widely used programming language, and there are many job opportunities for C++ developers across different industries. Here are some potential job opportunities for C++ developers:
     <ol>
@@ -964,7 +1142,12 @@
     </category>
 
     <category>
-    <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT C#</pattern>
+        <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT C#</pattern>
+        <template><srai>MORE JOB OPPORTUNITY DETAILS ABOUT C plus plus</srai></template>
+    </category>
+
+    <category>
+    <pattern>MORE JOB OPPORTUNITY DETAILS ABOUT C sharp</pattern>
     <template>
     <ol>
         <li>Game Development:C# is a popular programming language used for game development because of its performance and ease of use. It is commonly used with game engines such as Unity and Unreal Engine to develop high-quality games for different platforms including desktop, mobile, and consoles.</li>
